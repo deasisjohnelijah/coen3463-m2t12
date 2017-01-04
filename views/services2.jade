@@ -1,0 +1,77 @@
+extends layout
+
+block content
+  div.w3-top
+    div.w3-row.w3-large
+      div.w3-col.s3
+        a.w3-btn-block.w3-light-grey(href="/")  Home
+      div.w3-col.s3.w3-dropdown-hover
+        a.w3-btn-block.w3-light-grey(href="services")  Services      
+          i.fa.fa-caret-down.w3-margin-left
+        div.w3-dropdown-content.w3-light-grey(style="width:100%")
+          a.w3-btn-block.w3-light-grey(href="services1")  Chef for the Holidays
+          a.w3-btn-block.w3-light-grey(href="services2")  Chef for Events
+          a.w3-btn-block.w3-light-grey(href="services3")  Chef for your Dates
+      div.w3-col.s3
+        a.w3-btn-block.w3-light-grey(href="about")  About Us
+      div.w3-col.s3
+        a.w3-btn-block.w3-light-grey(href="contact")  Contact
+  div.logo
+      a(href="/")
+        img(src="images/newcompanylogo.png" alt="Chef of the Day" height="300" width="500")
+  div.w3-content(style="max-width:1500px")
+    header.w3-container.w3-padding-32.w3-center.w3-opacity-min.w3-margin-bottom
+      div.w3-clear
+      h1.w3-text-red.whitebackground
+        b  Parties and Events Chef
+      p.w3-text-red.whitebackground
+        b  
+          |  Chef Bobby is a 28 years old Vegetable Cook (Entremetier) from Makati, He is a entremetier that can take on a variety of roles, depending on the 
+          |  type of cuisine. For the most part, he or she deals in soups, vegetables, potatoes and rice, and egg dishes. He graduated on one of the top culinary |  schools in japan with some vegetable cook awards because of his talent in making soups and other vegetable dishes.  
+      p.w3-text-red.whitebackground
+        b
+          |  Having problems deciding what to cook in your parties or events? We offer you this service that can cook you enjoyable and delicious meals. This service includes boufet option that will serve food for up to 100 people. This is the best service we can offer to birthay parties and weddings. Since parties and events are one of the most memorable moments of your life, we want you to remember it more by eating the food we make.
+      h3.w3-text-red.whitebackground
+        b Price Range: Php15,000.00 - Php22,000.00
+      p.w3-padding-16
+        a(href='contact')
+          button.w3-btn(action="contact")  Go to Contact Us
+
+    div#myGrid.w3-row(style="margin-bottom:128px")
+      div.w3-third
+        img(src="images/service2_1.jpg" style="width:100%")
+        img(src="images/fish5.jpg" style="width:100%")
+        img(src="images/meat5.jpg" style="width:100%")
+        img(src="images/dessert4.jpg" style="width:100%")
+        img(src="images/meat8.jpg" style="width:100%")
+        img(src="images/events1.jpg" style="width:100%")
+
+      div.w3-third
+        img(src="images/dessert5.jpg" style="width:100%")
+        img(src="images/fish6.jpg" style="width:100%")
+        img(src="images/service2_4.jpg" style="width:100%")
+        img(src="images/meat6.jpg" style="width:100%")
+        img(src="images/events2.jpg" style="width:100%")
+        img(src="images/service2_3.jpg" style="width:100%")
+        img(src="images/service2_2.jpg" style="width:100%")
+
+
+      div.w3-third
+        img(src="images/fish7.jpg" style="width:100%")
+        img(src="images/fish8.jpg" style="width:100%")
+        img(src="images/meat7.jpg" style="width:100%")
+        img(src="images/events3.jpg" style="width:100%")
+        img(src="images/dessert6.jpg" style="width:100%")
+        img(src="images/dessert7.jpg" style="width:100%")
+
+  footer.w3-container.w3-padding-64.w3-light-grey.w3-center.w3-opacity.w3-xlarge(style="margin:-24px")
+    a(href="https://github.com/deasisjohnelijah/coen3463-m2t12.git")
+        i.fa.fa-github.w3-hover-text-yellow
+    i.fa.fa-facebook-official.w3-hover-text-indigo
+    i.fa.fa-instagram.w3-hover-text-purple
+    i.fa.fa-pinterest-p.w3-hover-text-red
+    i.fa.fa-twitter.w3-hover-text-light-blue
+    i.fa.fa-linkedin.w3-hover-text-indigo
+    p 
+      h6
+        span © 2017 COEN 3463 Team 12

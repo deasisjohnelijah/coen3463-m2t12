@@ -1,0 +1,49 @@
+extends layout
+
+block content
+  
+  div.w3-top
+    div.w3-row.w3-large
+      div.w3-col.s3
+        a.w3-btn-block.w3-light-grey(href="/")  Home
+      div.w3-col.s3.w3-dropdown-hover
+        a.w3-btn-block.w3-light-grey(href="services")  Services      
+          i.fa.fa-caret-down.w3-margin-left
+        div.w3-dropdown-content.w3-light-grey(style="width:100%")
+          a.w3-btn-block.w3-light-grey(href="services1")  Chef for the Holidays
+          a.w3-btn-block.w3-light-grey(href="services2")  Chef for Events
+          a.w3-btn-block.w3-light-grey(href="services3")  Chef for your Dates
+      div.w3-col.s3
+        a.w3-btn-block.w3-light-grey(href="about")  About Us
+      div.w3-col.s3
+        a.w3-btn-block.w3-light-grey(href="contact")  Contact
+  div.logo
+      a(href="/")
+        img(src="images/newcompanylogo.png" alt="Chef of the Day" height="300" width="500")
+    div.w3-row-padding
+      div.centermessage
+        div.w3-third.w3-container.w3-margin-bottom
+          img(src="images/about.png" alt="Elijah and Pier" style="width:100%")
+          div.w3-container.w3-white
+            p  
+              b  About Us
+            p   
+              |  Chef of the Day is your number one source of great experienced chefs you always need for holidays and events. The company has several professional chefs with their own    specialty. They can cook every meal you like to cook. It helps you to cook faster and without hustle. 
+              |  Chef of the Day is founded by John Elijah de Asis and Pierangelo Martin and currently giving high quality services. They have been changing the lifestyle for clients through the years with the help of its unique and quality personal chef services. Family members who have troubling cooking for themselves has been an inspiration in starting the company. It started with a small business and grows larger as words spread quickly about is satisfying services. 
+              |  The company ensures that clients will be satisfied with the service and the food as well. 
+          p .
+
+          img(src="images/makers.png" alt="Elijah and Pier" style="width:100%")
+    footer.w3-container.w3-padding-64.w3-light-grey.w3-center.w3-opacity.w3-xlarge(style="margin:-24px")
+      a(href="https://github.com/deasisjohnelijah/coen3463-m2t12.git")
+        i.fa.fa-github.w3-hover-text-yellow
+      i.fa.fa-facebook-official.w3-hover-text-indigo
+      i.fa.fa-instagram.w3-hover-text-purple
+      i.fa.fa-pinterest-p.w3-hover-text-red
+      i.fa.fa-twitter.w3-hover-text-light-blue
+      i.fa.fa-linkedin.w3-hover-text-indigo
+      p 
+        h6
+          span © 2017 COEN 3463 Team 12
+
+

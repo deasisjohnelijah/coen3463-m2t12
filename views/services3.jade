@@ -1,0 +1,79 @@
+extends layout
+
+block content
+  div.w3-top
+    div.w3-row.w3-large
+      div.w3-col.s3
+        a.w3-btn-block.w3-light-grey(href="/")  Home
+      div.w3-col.s3.w3-dropdown-hover
+        a.w3-btn-block.w3-light-grey(href="services")  Services      
+          i.fa.fa-caret-down.w3-margin-left
+        div.w3-dropdown-content.w3-light-grey(style="width:100%")
+          a.w3-btn-block.w3-light-grey(href="services1")  Chef for the Holidays
+          a.w3-btn-block.w3-light-grey(href="services2")  Chef for Events
+          a.w3-btn-block.w3-light-grey(href="services3")  Chef for your Dates
+      div.w3-col.s3
+        a.w3-btn-block.w3-light-grey(href="about")  About Us
+      div.w3-col.s3
+        a.w3-btn-block.w3-light-grey(href="contact")  Contact
+  div.logo
+      a(href="/")
+        img(src="images/newcompanylogo.png" alt="Chef of the Day" height="300" width="500")
+  div.w3-content(style="max-width:1500px")
+    header.w3-container.w3-padding-32.w3-center.w3-opacity-min.w3-margin-bottom
+      div.w3-clear
+      h1.w3-text-red.whitebackground
+        b  Date Chef
+      p.w3-text-red.whitebackground
+        b  
+          |  Chef Cora is a 20 years old Meat Cook (Rotisseur) from bacolod, She is a rotisseur that is the mastermind of meat. From roasting and braising to   
+          |  broiling and grilling, the rotisseur does it all. In many cases, the tasks will overlap with those of the saucier, especially when it comes to 
+          |  gravies. She is now a graduating culinary student from University of Santo tomas, This chef proves that age doesnt matter, her passion is to cook 
+          |  and her specialty are meats 
+      p.w3-text-red.whitebackground
+        b
+          |  This is the best service for romantic people having problems cooking for their loved ones. This service will cook you fine dinning meals that you can taste in first class    restaurants. We want you to experience the sweetest moment of your life by eating the food we make. We offer you the best service for your dates and dinner with your wife, husband, girlfriend, boyfriend or family. This service will make you want to date more often.
+      h3.w3-text-red.whitebackground
+        b Price Range: Php13,000.00 - Php15,000.00
+
+      p.w3-padding-16
+        a(href='contact')
+          button.w3-btn(action="contact")  Go to Contact Us
+
+    div#myGrid.w3-row(style="margin-bottom:128px")
+      div.w3-third
+        img(src="images/service3_1.jpg" style="width:100%")
+        img(src="images/fish9.jpg" style="width:100%")
+        img(src="images/date1.jpg" style="width:100%")
+        img(src="images/meat9.jpg" style="width:100%")
+        img(src="images/dessert8.jpg" style="width:100%")
+        img(src="images/fish11.jpg" style="width:100%")
+
+      div.w3-third
+        img(src="images/dessert10.jpg" style="width:100%")
+        img(src="images/fish10.jpg" style="width:100%")
+        img(src="images/service3_4.jpg" style="width:100%")
+        img(src="images/meat11.jpg" style="width:100%")
+        img(src="images/service3_3.jpg" style="width:100%")
+        img(src="images/date2.jpg" style="width:100%")
+        img(src="images/service3_2.jpg" style="width:100%")
+
+      div.w3-third
+        img(src="images/meat10.jpg" style="width:100%")
+        img(src="images/fish12.jpg" style="width:100%")
+        img(src="images/date3.jpg" style="width:100%")
+        img(src="images/meat12.jpg" style="width:100%")
+        img(src="images/dessert9.jpg" style="width:100%")
+        img(src="images/dessert11.jpg" style="width:100%")
+
+  footer.w3-container.w3-padding-64.w3-light-grey.w3-center.w3-opacity.w3-xlarge(style="margin:-24px")
+    a(href="https://github.com/deasisjohnelijah/coen3463-m2t12.git")
+        i.fa.fa-github.w3-hover-text-yellow
+    i.fa.fa-facebook-official.w3-hover-text-indigo
+    i.fa.fa-instagram.w3-hover-text-purple
+    i.fa.fa-pinterest-p.w3-hover-text-red
+    i.fa.fa-twitter.w3-hover-text-light-blue
+    i.fa.fa-linkedin.w3-hover-text-indigo
+    p 
+      h6
+        span © 2017 COEN 3463 Team 12

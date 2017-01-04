@@ -1,0 +1,89 @@
+extends layout
+
+block content
+  
+  div.w3-top
+    div.w3-row.w3-large
+      div.w3-col.s3
+        a.w3-btn-block.w3-light-grey(href="/")  Home
+      div.w3-col.s3.w3-dropdown-hover
+        a.w3-btn-block.w3-light-grey(href="services")  Services      
+          i.fa.fa-caret-down.w3-margin-left
+        div.w3-dropdown-content.w3-light-grey(style="width:100%")
+          a.w3-btn-block.w3-light-grey(href="services1")  Chef for the Holidays
+          a.w3-btn-block.w3-light-grey(href="services2")  Chef for Events
+          a.w3-btn-block.w3-light-grey(href="services3")  Chef for your Dates
+      div.w3-col.s3
+        a.w3-btn-block.w3-light-grey(href="about")  About Us
+      div.w3-col.s3
+        a.w3-btn-block.w3-light-grey(href="contact")  Contact
+  div.logo
+      a(href="/")
+        img(src="images/newcompanylogo.png" alt="Chef of the Day" height="300" width="500")
+  div.intro
+    div.w3-container.w3-padding-32.w3-center.w3-opacity.w3-margin-bottom(style="margin-left:50%")
+      h1.w3-text-red.whitebackground  Looking for a chef to cook for you?
+      br
+      h1.w3-text-red.whitebackground  Look no more!
+  div.indexcentermessage
+    div.tag.is-danger
+      h3  
+        p Here in Chef of the Day, we give you the Chef you need for your holidays and events.
+    div(style="color:white")
+      p  .
+      p  .
+      p  .
+    div.tag.is-danger
+      h3
+        p  We offer you different kind of quality services.
+    div(style="color:white")
+      p  .
+      p  .
+      p  .
+    div#about.w3-row-padding
+      div.w3-third.w3-container.w3-margin-bottom
+      div.w3-center.w3-padding-64
+        span.w3-xlarge.w3-bottombar.w3-border-black.w3-padding-16.w3-text-white.tag.is-danger  What We Offer
+      div.w3-third.w3-container.w3-margin-bottom
+        div.w3-card-4
+          a(href="services1")
+            img(src="images/service1.jpg" alt="Service 1" style="width:100%" class="w3-hover-opacity")
+          div.w3-container.w3-white
+            p  
+              b  Holidays Chef
+            p  
+              |  If your'e looking to spend your holidays with exquisite meals and delicious foods. This is the best service we can offer to you. We can cook you first class food. From appetizers to desserts. We offer different recipes that you will want to taste and also we can cook your own recipe the way you like it. We want you to experience the best holidays by eating the meals we cook.
+      div.w3-third.w3-container.w3-margin-bottom
+        div.w3-card-4
+          a(href="services2")
+            img(src="images/service2.jpg" alt="Service 2" style="width:100%" class="w3-hover-opacity")
+          div.w3-container.w3-white
+            p  
+              b  Parties and Events Chef
+            p  
+              |  Having problems deciding what to cook in your parties or events? We offer you this service that can cook you enjoyable and delicious meals. This service includes boufet option that will serve food for up to 100 people. This is the best service we can offer to birthay parties and weddings. Since parties and events are one of the most memorable moments of your life, we want you to remember it more by eating the food we make. 
+      div.w3-third.w3-container.w3-margin-bottom
+        div.w3-card-4
+          a(href="services3")
+            img(src="images/service3.jpg" alt="Service 3" style="width:100%" class="w3-hover-opacity")
+          div.w3-container.w3-white
+            p  
+              b  Date Chef
+            p  
+              |  This is the best service for romantic people having problems cooking for their loved ones. This service will cook you fine dinning meals that you can taste in first class    restaurants. We want you to experience the sweetest moment of your life by eating the food we make. We offer you the best service for your dates and dinner with your wife, husband, girlfriend, boyfriend or family. This service will make you want to date more often.
+      p  .
+      p  .
+      p  .
+    footer.w3-container.w3-padding-64.w3-light-grey.w3-center.w3-opacity.w3-xlarge(style="margin:-24px")
+      a(href="https://github.com/deasisjohnelijah/coen3463-m2t12.git")
+        i.fa.fa-github.w3-hover-text-yellow
+      i.fa.fa-facebook-official.w3-hover-text-indigo
+      i.fa.fa-instagram.w3-hover-text-purple
+      i.fa.fa-pinterest-p.w3-hover-text-red
+      i.fa.fa-twitter.w3-hover-text-light-blue
+      i.fa.fa-linkedin.w3-hover-text-indigo
+      p 
+        h6
+          span © 2017 COEN 3463 Team 12
+
+
